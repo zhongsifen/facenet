@@ -6,7 +6,7 @@ https://github.com/davidsandberg/facenet/wiki/Validate-on-LFW
 
 python src/align/align_dataset_mtcnn.py /local/Work/datasets/lfw/raw/ /local/Work/datasets/lfw/lfw_20180422_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
 
-python src/validate_on_lfw.py ~/datasets/lfw/lfw_mtcnnpy_160 ~/models/facenet/20170512-11054
+python src/validate_on_lfw.py /local/Work/datasets/lfw/lfw_20180422_160 /local/Work/models/facenet/20170512-110547
 
 
 https://github.com/davidsandberg/facenet/wiki/Train-a-classifier-on-own-images
